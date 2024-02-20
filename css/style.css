@@ -1,0 +1,87 @@
+
+@font-face{
+    font-family: 'Quincho Script';
+    src: url(font/quinchoscript_personaluse.ttf);
+}
+
+body {
+    background-image: url('../feed/img/soupbgd.jpg');
+    background-attachment:fixed;
+}
+
+h3, p, nav{
+    font-family: "caraque-melted", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1{
+    font-family: 'Quincho Script';
+    font-size:130px;
+    text-align:center;
+    color:#f9e3b4;
+    text-shadow:4px 4px black;
+    background-color:#df4100;
+    justify-content: center;
+    align-items:center;
+    border:8px solid #f9e3b4;
+    margin-bottom:40px;
+}
+
+h3{
+    font-size:50px;
+    color:#f9e3b4;
+    text-align:center;
+    background-color:#df4100;
+    border:5px dashed #f9e3b4;
+}
+
+p{
+    font-size:30px;
+    color:#df4100;
+    text-align:center;
+    background-color:#f9e3b4;
+    padding-bottom:6px;
+    border:5px dashed #df4100;
+}
+
+nav, a{
+    font-size:20px;
+    color:#f9e3b4;
+}
+
+#img{
+    display: flex;
+    /*border: 10px solid #f9e3b4;*/
+    justify-content:flex-end;
+    align-items:center;
+    border:5px dashed #f9e3b4;
+} 
+
+#title{
+    background-color:none;
+    box-shadow: none;
+}
+
+article{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:right;
+    margin-left:600px;
+}
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:100px;
+    margin-left:375px;
+  }
+
+nav{
+position:fixed;
+top:50px;
+left:50px;
+}
