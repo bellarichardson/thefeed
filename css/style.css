@@ -20,12 +20,9 @@ h3, p, nav{
 }
 
 h1{
-    font-family: "caraque-melted", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    /*font-family: "rooney-web", serif;
+    font-family: "rooney-web", serif;
     font-weight: 900;
-    font-style: italic;*/
+    font-style: italic;
     font-size:120px;
     text-align:center;
     color:#f9e3b4;
