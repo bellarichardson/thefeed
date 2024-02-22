@@ -19,7 +19,7 @@ h3, p, nav{
     font-style: normal;
 }
 
-h1{
+/*h1{
     font-family: "rooney-web", serif;
     font-weight: 900;
     font-style: italic;
@@ -32,7 +32,7 @@ h1{
     align-items:center;
     border:8px solid #f9e3b4;
     margin-bottom:40px;
-}
+}*/
 
 h3{
     font-size:50px;
@@ -47,8 +47,14 @@ p{
     color:#df4100;
     text-align:center;
     background-color:#f9e3b4;
-    padding-bottom:6px;
+    padding:10px;
     border:5px dashed #df4100;
+    width:400px;
+    height:200px;
+    margin-top:250px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 nav, a{
@@ -58,16 +64,11 @@ nav, a{
 
 #img{
     display: flex;
-    /*border: 10px solid #f9e3b4;*/
     justify-content:flex-end;
     align-items:center;
     border:5px dashed #f9e3b4;
+    margin:10px;
 } 
-
-#title{
-    background-color:none;
-    box-shadow: none;
-}
 
 article{
     display:flex;
@@ -97,8 +98,8 @@ left:50px;
     position: fixed;
     left: 26px;
     bottom: 26px;
-    width: 36px;
-    height: 36px;
+    width: 60px;
+    height: 60px;
     background: #f9e3b4;
     border-radius: 50% 0 50% 50%;
     transform: rotate(-45deg);
@@ -108,9 +109,9 @@ left:50px;
   #scroll-text{
     color: #df4100;
     position: fixed;
-    left: 30px;
-    bottom: 33px;
-    font-size: 21px;
+    left: 38px;
+    bottom: 41px;
+    font-size: 30px;
     z-index: 10;
     font-family: "caraque-melted", sans-serif;
     font-weight: 500;
