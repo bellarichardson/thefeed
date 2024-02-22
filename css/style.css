@@ -4,6 +4,10 @@
     src: url(font/quinchoscript_personaluse.ttf);
 }
 
+#body{
+    background-image: url('../feed/img/soup-wall.jpeg');
+}
+
 body {
     background-image: url('../feed/img/soupbgd.jpg');
     background-attachment:fixed;
@@ -16,8 +20,10 @@ h3, p, nav{
 }
 
 h1{
-    font-family: 'Quincho Script';
-    font-size:130px;
+    font-family: "malaga-narrow", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size:120px;
     text-align:center;
     color:#f9e3b4;
     text-shadow:4px 4px black;
@@ -33,7 +39,7 @@ h3{
     color:#f9e3b4;
     text-align:center;
     background-color:#df4100;
-    border:5px dashed #f9e3b4;
+    border:5px solid #f9e3b4;
 }
 
 p{
@@ -76,8 +82,8 @@ article{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top:100px;
-    margin-left:375px;
+    margin-top:160px;
+    margin-left:475px;
   }
 
 nav{
@@ -85,3 +91,36 @@ position:fixed;
 top:50px;
 left:50px;
 }
+
+
+.scroll-arrow {
+    position: fixed;
+    left: 26px;
+    bottom: 26px;
+    width: 36px;
+    height: 36px;
+    background: #f9e3b4;
+    border-radius: 50% 0 50% 50%;
+    transform: rotate(-45deg);
+    z-index: 9;
+  }
+
+  #scroll-text{
+    color: #df4100;
+    position: fixed;
+    left: 30px;
+    bottom: 33px;
+    font-size: 21px;
+    z-index: 10;
+    font-family: "caraque-melted", sans-serif;
+    font-weight: 500;
+    font-style:normal;
+  }
+
+  #scroll-text:hover {
+    color: white;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
