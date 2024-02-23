@@ -14,7 +14,7 @@ body {
 }
 
 h3, p, nav{
-    font-family: "caraque-melted", sans-serif;
+    font-family: "caraque-solid", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
@@ -35,11 +35,13 @@ h3, p, nav{
 }*/
 
 h3{
-    font-size:50px;
+    font-size:35px;
     color:#f9e3b4;
     text-align:center;
     background-color:#df4100;
     border:5px solid #f9e3b4;
+    padding: 10px;
+    width:400px;
 }
 
 p{
@@ -96,8 +98,8 @@ left:50px;
 
 .scroll-arrow {
     position: fixed;
-    left: 26px;
-    bottom: 26px;
+    left: 526px;
+    bottom: 76px;
     width: 60px;
     height: 60px;
     background: #f9e3b4;
@@ -109,13 +111,13 @@ left:50px;
   #scroll-text{
     color: #df4100;
     position: fixed;
-    left: 38px;
-    bottom: 41px;
+    left: 538px;
+    bottom: 90px;
     font-size: 30px;
     z-index: 10;
-    font-family: "caraque-melted", sans-serif;
+    font-family: "caraque-solid", sans-serif;
     font-weight: 500;
-    font-style:normal;
+    font-style: normal;
   }
 
   #scroll-text:hover {
